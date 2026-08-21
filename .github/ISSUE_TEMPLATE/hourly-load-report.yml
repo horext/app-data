@@ -1,6 +1,6 @@
-name: Reportar un plan de estudios incorrecto
-description: Informa asignaturas faltantes, adicionales o con datos incorrectos.
-title: "[Plan de estudios]: "
+name: Reportar una carga horaria incorrecta
+description: Informa secciones, horarios o aulas faltantes o incorrectos.
+title: "[Carga horaria]: "
 body:
   - type: markdown
     attributes:
@@ -13,26 +13,28 @@ body:
     id: speciality
     attributes:
       label: Especialidad
-      description: Nombre de la especialidad.
+      description: Nombre de la especialidad asociada a la carga horaria.
       placeholder: "Ejemplo: Ingeniería de Sistemas"
     validations:
       required: true
 
   - type: input
-    id: study_plan
+    id: hourly_load
     attributes:
-      label: Plan de estudios
-      description: Código y nombre del plan, o solo el nombre si no tiene código.
-      placeholder: "Ejemplo: SIS-2026 - Plan 2026"
+      label: Carga horaria
+      description: Periodo o nombre de la carga horaria donde aparece el problema.
+      placeholder: "Ejemplo: 2026-2"
     validations:
       required: true
 
   - type: input
-    id: valid_from
+    id: course
     attributes:
-      label: Vigente desde
-      description: Fecha desde la cual el plan está vigente, si se conoce.
-      placeholder: "Ejemplo: 2026-01-01"
+      label: Asignatura
+      description: Código y nombre de la asignatura usada para identificar sus horarios.
+      placeholder: "Ejemplo: CS101 — Introducción a la Programación"
+    validations:
+      required: true
 
   - type: dropdown
     id: problem_type
@@ -41,22 +43,22 @@ body:
       description: Selecciona todas las opciones que correspondan.
       multiple: true
       options:
-        - Falta una asignatura en el plan
-        - Una asignatura no pertenece al plan
-        - El código o nombre de una asignatura es incorrecto
-        - Los créditos, el ciclo o el tipo de una asignatura son incorrectos
+        - Falta una sección
+        - Una sección no pertenece a la carga horaria
+        - El horario de una sesión es incorrecto
+        - El aula de una sesión es incorrecta
         - Otro problema
     validations:
       required: true
 
   - type: textarea
-    id: affected_subjects
+    id: affected_schedules
     attributes:
-      label: Asignaturas afectadas
-      description: Incluye el código y nombre de cada asignatura afectada.
+      label: Secciones u horarios afectados
+      description: Indica las secciones y horarios incorrectos o faltantes.
       placeholder: |
-        - CS101 — Introducción a la Programación
-        - MA201 — Matemática II
+        Sección A — lunes 08:00-10:00
+        Sección B — miércoles 10:00-12:00
     validations:
       required: true
 
