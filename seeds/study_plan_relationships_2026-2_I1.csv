@@ -1,4 +1,4 @@
-﻿from_course_id,to_course_id,relationship_type_id
+from_course_id,to_course_id,relationship_type_id
 BMA01,BMA02,1
 FB101,BMA03,1
 BQU01,FB202,1
