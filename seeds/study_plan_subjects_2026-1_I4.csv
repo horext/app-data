@@ -1,14 +1,83 @@
 course_id,course_name,credits,cycle,subject_type_id,evaluation_system_id,total_weekly_hours,weekly_theory_hours,weekly_practice_hours,weekly_practice_laboratory_hours,weekly_laboratory_hours,max_cycle,min_cycle,note,required_credits,position
-IA001,Introducción a la Ingenieria Artificial,2,1,1,,,,,,,,,,,
-BIC01,Introducción a la Computación,2,1,1,,,,,,,,,,,
-BMA01,Calculo Diferencial,5,1,1,,,,,,,,,,,
-BQU01,Quimica I,5,1,1,,,,,,,,,,,
-BRC01,Redacción Y Comunicación,2,1,1,,,,,,,,,,,
-FB101,Geometría Analítica,3,1,1,,,,,,,,,,,
-HU102,Desarrollo Personal,2,1,1,,,,,,,,,,,
-BFI01,Física 1,5,2,1,,,,,,,,,,,
-BMA02,Calculo Integral,5,2,1,,,,,,,,,,,
-BMA03,Algebra Lineal,4,2,1,,,,,,,,,,,
-FB301,Matemática Discreta,3,2,1,,,,,,,,,,,
-SI205,Algoritmia y Estructura de datos,3,2,1,,,,,,,,,,,
-TE205,Dibujo y Geometría Descriptiva,2,2,1,,,,,,,,,,,
+BIC01,Introducción a la Computación,2,1,1,,,,,,,,,,,1
+BMA01,Cálculo Diferencial,5,1,1,,,,,,,,,,,2
+BQU01,Química I,5,1,1,,,,,,,,,,,3
+BRC01,Redacción y Comunicación,2,1,1,,,,,,,,,,,4
+FB101,Geometría Analítica,3,1,1,,,,,,,,,,,5
+HU102,Desarrollo Personal,2,1,1,,,,,,,,,,,6
+IA001,Introducción a la Ingeniería de Inteligencia Artificial,2,1,1,,,,,,,,,,,7
+BMA02,Cálculo Integral,5,2,1,,,,,,,,,,,1
+BMA03,Álgebra Lineal,4,2,1,,,,,,,,,,,2
+BRN01,"Realidad Nacional, Constitución y Derechos Humanos",3,2,1,,,,,,,,,,,3
+FB301,Matemática Discreta,3,2,1,,,,,,,,,,,4
+FB305,Estadística y Probabilidades,3,2,1,,,,,,,,,,,5
+SI205,Algoritmia y Estructura de Datos,3,2,1,,,,,,,,,,,6
+BEG01,Economía General,3,3,1,,,,,,,,,,,1
+BFI01,Física I,5,3,1,,,,,,,,,,,2
+FB303,Cálculo Multivariable,5,3,1,,,,,,,,,,,3
+IA002,Análisis de Datos Estadísticos,3,3,1,,,,,,,,,,,4
+SW301,Arquitectura de Computadoras I,2,3,1,,,,,,,,,,,5
+SW303,Lenguajes de Programación I (Imperativo),4,3,1,,,,,,,,,,,6
+SW305,Algoritmia y Estructura de Datos Avanzada,3,3,1,,,,,,,,,,,7
+BEF01,Ética y Filosofía Política,2,4,1,,,,,,,,,,,1
+FB401,Física II,5,4,1,,,,,,,,,,,2
+FB403,Ecuaciones Diferenciales,5,4,1,,,,,,,,,,,3
+IA005,Aprendizaje Automático I,4,4,1,,,,,,,,,,,4
+SI405,Modelado Conceptual de Datos,3,4,1,,,,,,,,,,,5
+SW403,Lenguaje de Programación II (Orientada a Objetos),3,4,1,,,,,,,,,,,6
+SW405,Ingeniería de Requerimientos I,3,4,1,,,,,,,,,,,7
+FB402,Cálculo Numérico,3,5,1,,,,,,,,,,,1
+HU501,Taller de Efectividad Personal,2,5,1,,,,,,,,,,,2
+IA007,Aprendizaje Automático II,4,5,1,,,,,,,,,,,3
+IA008,Sistemas Multiagentes,3,5,1,,,,,,,,,,,4
+SI505,Diseño de Base de Datos,3,5,1,,,,,,,,,,,5
+SW407,Sistemas Operativos,3,5,1,,,,,,,,,,,6
+SW603,Diseño de Software I,3,5,1,,,,,,,,,,,7
+IA004,Adquisición y Preprocesamiento de Datos (Ingeniería),3,6,1,,,,,,,,,,,1
+IA009,Visualización de Datos y Storytelling,3,6,1,,,,,,,,,,,2
+IA010,Redes Neuronales y Deep Learning,3,6,1,,,,,,,,,,,3
+IA011,Técnicas Avanzadas de Optimización,3,6,1,,,,,,,,,,,4
+IA012,Modelos Gráficos Probabilísticos,3,6,1,,,,,,,,,,,5
+IA018,Fundamentos de Mecatrónica,3,6,1,,,,,,,,,,,6
+SW505,"Construcción de Software I (Fundamentos, Prácticas)",4,6,1,,,,,,,,,,,7
+GEB04,Administración de Empresas de Software,3,7,1,,,,,,,,,,,1
+IA013,Taller de Machine Learning,2,7,1,,,,,,,,,,,2
+IA014,Visión Artificial,3,7,1,,,,,,,,,,,3
+IA019,Procesamiento de Señales,3,7,1,,,,,,,,,,,4
+IA021,Ética de Datos e Inteligencia Artificial,2,7,1,,,,,,,,,,,5
+IA027,Fabricación Digital,3,7,1,,,,,,,,,,,6
+SW115,Computación Paralela,3,7,1,,,,,,,,,,,7
+IA016,Aprendizaje por Refuerzo,3,8,1,,,,,,,,,,,1
+IA017,Procesamiento del Lenguaje Natural,3,8,1,,,,,,,,,,,2
+IA020,Análisis de Datos Masivos (Big Data),3,8,1,,,,,,,,,,,3
+IA023,Taller de Investigación de Ingeniería de Inteligencia Artificial,2,8,1,,,,,,,,,,,4
+SW004,Gestión de Proyectos de Software,3,8,1,,,,,,,,,,,5
+SW703,Sistemas Embebidos y en Tiempo Real,3,8,1,,,,,,,,,,,6
+IA015,Computación Evolutiva,3,9,1,,,,,,,,,,,1
+IA022,Taller de Deep Learning,2,9,1,,,,,,,,,,,2
+IA024,Taller de Proyectos de Investigación,2,9,1,,,,,,,,,,,3
+SW122,Internet de las Cosas y Nanocosas,3,9,1,,,,,,,,,,,4
+IA025,Taller de Investigación,2,10,1,,,,,,,,,,,1
+IA026,Tópicos Avanzados de Inteligencia Artificial,2,10,1,,,,,,,,,,,2
+FB501,Matemática Aplicada,3,,4,,,,,,,,,,,
+GE704,Contabilidad de Costos y Presupuestos,3,,4,,,,,,,,,,,
+IA110,Bioinformática e Inteligencia Artificial,3,,4,,,,,,,,,,,
+IA112,Psicología Cognitiva,3,,4,,,,,,,,,,,
+IA114,Inteligencia Artificial Generativa,3,,4,,,,,,,,,,,
+IA116,Diseño y Desarrollo de Juegos con IA,3,,4,,,,,,,,,,,
+IA118,Inteligencia Artificial en Medicina,3,,4,,,,,,,,,,,
+IA120,Inteligencia Artificial en Agricultura,3,,4,,,,,,,,,,,
+IA122,Sistemas de Recomendación,3,,4,,,,,,,,,,,
+IA124,Robótica Avanzada,3,,4,,,,,,,,,,,
+IA126,Desarrollo de Aplicaciones Biométricas,3,,4,,,,,,,,,,,
+IA128,Inteligencia Artificial Explicable,3,,4,,,,,,,,,,,
+IA130,Realidad Aumentada y Realidad Virtual,3,,4,,,,,,,,,,,
+IA132,Programación Competitiva,3,,4,,,,,,,,,,,
+SW005,Taller de Emprendimiento en Base a Soluciones de Software,2,,4,,,,,,,,,,,
+SW110,Seguridad de la Información,3,,4,,,,,,,,,,,
+SW113,Cloud Computing,3,,4,,,,,,,,,,,
+SW116,Taller de Design Thinking,2,,4,,,,,,,,,,,
+SW120,Desarrollo de Aplicaciones Móviles,3,,4,,,,,,,,,,,
+SW124,"Industria 4.0 (Blockchain, Impresoras 3D, Smart Cities)",3,,4,,,,,,,,,,,
+SW125,Ciberseguridad y Hackeo Ético,3,,4,,,,,,,,,,,
+SW140,Quality Insurance,3,,4,,,,,,,,,,,
